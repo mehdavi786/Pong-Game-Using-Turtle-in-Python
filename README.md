@@ -4,6 +4,7 @@ The provided code is an implementation of the classic game Pong using the Python
 The code begins by importing the necessary modules: turtle, tkinter, and winsound. The turtle module is used for creating the game graphics, tkinter is used to change the icon of the turtle window, and winsound is used to play sound effects during the game.
 
 The code defines several functions to move the paddles up and down. These functions are bound to specific keys on the keyboard using the window.onkeypress() function. When a key is pressed, the corresponding function is called to move the paddle in the desired direction.
+Note: w and s for left paddle movement and up and down arrow key for right paddle movement.
 
 The code then initializes the turtle window and sets its properties, such as the title, background color, and size. It also sets the speed of the window to 0, which means the animations will be as fast as possible.
 
